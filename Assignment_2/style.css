@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #BEC3D5;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav div {
+    font-family: "Inspiration", cursive;
+    font-size: 30px;
+    margin: 12px 0 0 12px;
+    color: #215DDD;
+}
+
+.loginPage{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    /* height: 450px;
+    width: 375px; */
+    background-color: #FFFFFF;    
+    box-shadow: 8px 8px #5C82DA, 10px 10px black;
+    color: black;
+    justify-content: center;
+    width: 22%;
+    height: 61%;
+}
+
+.inlogo{
+    /* text-decoration: underline; */
+    font-family: "Inspiration", cursive;
+    font-size: 18px;
+    color: #215DDD;
+    text-align: center;
+}
+
+.font h2{
+    text-align: center;
+    color: #215CDD;
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px rgb(31, 30, 30);
+
+}
+
+.font p{
+    font-size: 10px;
+    color: black;
+    text-align: center;
+}
+
+.input-box{
+    width: 90%;
+    height: 40px;
+    margin: 25px 15px;
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid rgb(70, 65, 65);
+    background-color: #D7D6D6;
+    
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent; 
+    border: none;
+    outline: none;
+}
+
+.bx{
+    margin: 12px 5px 12px 5px;
+
+}
+
+.btnLogin{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    width: 90%;
+    height: 35px;
+    background-color: #5C82DA;
+    color: #FFFFFF;
+}
+
+.btnRegister{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn2{
+    width: 90%;
+    height: 35px;
+    background-color: #5C82DA;
+    color: #FFFFFF;
+}
+
+.ForgotPassword{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 8px 0 8px 0;
+}
+
+.ForgotPassword a {
+    font-size: 10px;
+    margin-right: 3px;
+
+}
+
+.ForgotPassword label {
+    font-size: 10px;
+}
+
+
+
+

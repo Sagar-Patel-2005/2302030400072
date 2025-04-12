@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scal++e=1.0">
+    <title>StyleList</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                stylist
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <form action="">
+                <div class="inlogo">
+                    stylist
+                </div>
+                <div class="font">
+                    <h2>Login</h2>
+                    <p>Sign in To your Account</p>
+                </div>
+
+                <div class="input-box">
+                    <i class='bx bx-user'></i>
+                    <input type="text" id="username" placeholder="Username">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-key'></i>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+
+                <div class="btnLogin">
+                    <button onclick="login(event)" type="submit" class="btn1">Login</button>
+                </div>
+                <div class="ForgotPassword">
+                    <a href="#">Forgot my password</a>
+                    <label for="">Click Here to Reset</label>
+                </div>
+
+                <div class="btnRegister">
+                    <button type="submit" class="btn2">Register new Account</button>
+
+                </div>
+
+
+
+            </form>
+
+        </div>
+    </main>
+
+
+    <script>
+
+        function login(event) {
+            event.preventDefault();
+            // Optional: check if fields are filled
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+
+            if (user === "" || pass === "") {
+                alert("Please enter username and password");
+            } else {
+                // Change to 2nd page
+
+                window.location.href = "search.html";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: #BEC2D5;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background-color: #BEC2D5;
+    border-right: 2px solid #5C5E62;
+    color: #5C5E62;
+    display: flex;
+    flex-direction: column;
+}
+
+.bx-search {
+    margin-left: 98px;
+}
+
+.bx {
+    font-size: 27px;
+}
+
+.underline {
+    border: 1px solid;
+    width: 100%;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu a {
+    color: #5C5E62;
+}
+
+
+.explor h6 {
+    display: inline;
+}
+
+.explor i {
+    font-size: small;
+}
+
+.explor {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.history {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.loremhis {
+    padding: 10px 10px 10px 15px;
+}
+
+.loremhis span {
+    display: block;
+    padding: 5px 0 3px 10px;
+}
+
+.emptyhis {
+    padding: 10px 10px 10px 15px;
+}
+
+.emptyhis span {
+    display: block;
+    margin-bottom: 60px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    font-family: "Inspiration", cursive;
+    font-size: 12px;
+    margin: 10px;
+    color: #215DDD;
+}
+
+.profile-icon{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    flex-direction: column;
+
+}
+
+.center img {
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+.center h3{
+    color: #7D98D8;
+}
+
+.forcontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 100px;
+    width: 80%;
+    background-color: #7D98D8;
+    border-radius: 15px;
+}
+
+.txt{
+    font-size: 18px;
+    margin: 10px;
+    background-color: #7D98D8;
+    border: none;
+    outline: none;
+    display: block;
+    width: 97%;
+    color: #d5daf4;
+}
+
+.icones {
+    display: block;
+    margin: 30px 0 10px 10px;
+    padding-right: 25px;
+    color: #404040;
+}
+
+.bx-plus{
+    margin-right: 30px;
+}
+
+
+  

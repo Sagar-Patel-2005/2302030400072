@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background-color: #d3dce6; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="text"] {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    background-color: #79a4f5; 
+    color: white;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #d0e0ff; 
+    text-align: center; 
+}
+
+.otp-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+.success-message {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #38761d; /* Green color for success */
+}

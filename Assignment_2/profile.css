@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.profile-container {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 500px;
+}
+
+.header-nav {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+}
+
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.header-nav li {
+    margin-right: 25px;
+}
+
+.header-nav li:last-child {
+    margin-right: 0;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-icon-wrapper {
+    position: relative;
+    /* For positioning the edit button */
+    margin-right: 20px;
+}
+
+.profile-icon-container {
+    background-color: #6495ed;
+    color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.profile-icon-container::before {
+    content: '\f007';
+    /* Font Awesome user icon */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+}
+
+.edit-profile-icon {
+    position: absolute;
+    bottom: -10px;
+    /* Adjust vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f5f5f5;
+    /* Light background */
+    color: #6495ed;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.profile-details {
+    flex-grow: 1;
+}
+
+.profile-details strong {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.profile-details .info-value {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.profile-details .edit-button {
+    color: #6495ed;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info-section {
+    margin-bottom: 25px;
+    padding-left: 90px;
+}
+
+.info-section strong {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.info-section .info-value {
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.info-section .change-link {
+    color: #6495ed;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.logout-button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logout-button {
+    background-color: #6495ed;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-button:hover {
+    background-color: #4682b4;
+}
