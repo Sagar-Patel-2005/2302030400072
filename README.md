@@ -9,6 +9,16 @@ A smart fashion assistant that recommends outfits tailored to user preferences, 
 - 👚 Outfit preview with suggested combinations
 - 🔄 Option to refresh and get new suggestions
 ## 🖼 UI Screenshots
+![UI Screenshot](screenshots/1.png)
+![UI Screenshot](screenshots/2.png)
+![UI Screenshot](screenshots/3.png)
+![UI Screenshot](screenshots/4.png)
+![UI Screenshot](screenshots/5.png)
+![UI Screenshot](screenshots/6.png)
+![UI Screenshot](screenshots/7.png)
+![UI Screenshot](screenshots/8.png)
+![UI Screenshot](screenshots/9.png)
+![UI Screenshot](screenshots/10.png)
 
 
 ## 🛠 Tech Stack
